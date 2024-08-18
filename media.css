@@ -1,0 +1,72 @@
+#h1
+{
+    background-color: purple;
+    color: aqua;
+    
+}
+#h2
+{
+    background-color: rgb(0, 100, 128);
+    color: aqua;
+   
+}
+#h3
+{
+    background-color: rgb(128, 53, 0);
+    color: aqua;
+    
+}
+#h4
+{
+    background-color: rgb(0, 128, 45);
+    color: aqua;
+   
+}
+
+@media (min-width:600px) and  (max-width:699px)
+ {
+      #h2,#h3,#h4
+    {
+       background-color: yellow;
+       color: black;
+       display: none;
+       /* visibility: hidden; */
+    }
+    
+}
+@media (min-width:700px) and  (max-width:799px)
+ {
+      #h1,#h3,#h4
+    {
+       background-color: green;
+       color: black;
+       display: none;
+       /* visibility: hidden; */
+    }
+    
+}
+@media (min-width:800px) and  (max-width:899px)
+ {
+      #h2,#h1,#h4
+    {
+       background-color: orange;
+       color: black;
+       display: none;
+       /* visibility: hidden; */
+    }
+    
+}
+@media (min-width:900px) and  (max-width:1000px)
+ {
+      #h2,#h3,#h1
+    {
+       background-color: blue;
+       color: black;
+       display: none;
+       /* visibility: hidden; */
+    }
+    
+}
+
+
+
