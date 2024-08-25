@@ -1,0 +1,40 @@
+.container
+{
+    position: relative;
+    top: 200px;
+    
+    left: 500px;
+    background-color: firebrick;
+    width: 250px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+#child
+{
+    background-color: magenta;
+    color: aquamarine;
+    width: 75px;
+    border: 1px solid black;
+    position: relative;
+    height:90px;
+    top: 50px;
+    left: 50px;
+    right: 5px;
+    bottom: 5px;
+    text-align: center;
+    line-height: 50px;
+    transition-property: all;
+    transition-duration: 10s;
+    transition-timing-function: cubic-bezier(0.09,-0.53, 0.89, 1.5);
+
+}
+#child:hover
+{
+    width: 100px;
+    height: 100px;
+    /* transform: rotate(360deg); */
+     /* transform: scale(3); */
+   transform: skew(130deg);
+   /* transform: translate(30px,90px); */
+}
