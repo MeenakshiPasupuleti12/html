@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-color: firebrick; */
+}
+.banner
+{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: paleturquoise; */
+    /* background-image:url(https://th.bing.com/th/id/OIP.lVO6pah46kCuIazZrOFiagHaE8?rs=1&pid=ImgDetMain); */
+    /* background-image:url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute; */
+    height: 1000px;
+    /* background-color: aqua; */
+    list-style: none;
+    text-decoration: none;
+}
+.banner::before{
+    content: "";
+    background: url(shttps://th.bing.com/th/id/OIP.lVO6pah46kCuIazZrOFiagHaE8?rs=1&pid=ImgDetMain);
+    width: 100%;
+    height: 100%;
+    background-position: absolute;
+
+}
+
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px display;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li
+{
+   list-style: none;
+   display: inline-block;
+   margin: 0  20px;
+   position: relative;
+
+}
+.navbar ul li
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform:uppercase ;
+}
+/* .navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: gold;
+    position: absolute;
+    left: 0;
+    bottom:-10px ;
+    transition: 0.5s;
+    list-style: none;
+    text-decoration: none; */
+/* } */
+.navbar ul li:hover::after
+{
+   width: 100%;
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:forestgreen;
+}
+#a
+{
+    color: palevioletred ;
+}
+.content h1
+{
+  font-size: 50px;
+  margin-top: 80px;
+}
+.content p
+{
+margin: 20px auto;
+font-weight: 100;
+line-height: 25px;
+}
+button
+{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid gold;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span
+{
+  background: #009688; 
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span
+{
+  width: 100%;
+}
+button:hover
+{
+    border: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
