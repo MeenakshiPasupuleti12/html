@@ -1,0 +1,44 @@
+.one
+{
+    border: 2px solid black;
+    margin: 50px;
+    background-color:blue;
+    width: fit-content;
+    padding: 100px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.two
+{
+    margin: 50px;
+    border: 2px solid black;
+    background-color:red;
+    width: fit-content;
+    padding: 100px;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+.three
+{
+    margin: 50px;
+    border: 2px solid black;
+    background-color: yellow;
+    width: fit-content;
+    padding: 100px;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+}
+.four
+{
+    margin: 50px;
+    border: 2px solid black;
+    background-color: rgb(255, 240, 252);
+    width: fit-content;
+    padding: 100px;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
