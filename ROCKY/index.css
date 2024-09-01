@@ -1,0 +1,62 @@
+nav ul li a
+{
+    /* background-color: black; */
+    justify-content: space-around;
+    display: flex;
+    margin-right: 20px;
+    /* font-size: 200px; */
+    text-decoration: none;
+    color: beige;
+    /* width: 100x; */
+    height: 50px;
+    flex-direction: column;
+    list-style: none;
+    /* position: sticky; */
+}
+/*#p
+{
+  border-radius: 50px;
+}*/
+#id
+{
+  right: 200px;
+}
+#sticky
+{
+  position: sticky;
+}
+body
+
+{
+    background-color: lightblue;
+    /* color: beige; */
+    font-size: 30px;
+    /* color: aquamarine; */
+}
+nav li
+{
+   display: inline-block;
+   /* position: sticky; */
+
+}
+nav ul li a 
+{
+   /* display: inline-block; */
+   position: sticky;
+
+}
+header
+{
+  background-color: black;
+  justify-content: space-around;
+  display: flex;
+}
+nav ul li a:hover
+{
+    border-bottom: 3px solid maroon;
+}
+main
+{
+  display: flex;
+  flex-direction: column;
+}
