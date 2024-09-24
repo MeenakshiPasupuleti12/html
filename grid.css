@@ -56,3 +56,9 @@
     grid-area:footer ;
     border: 1px solid black;
 }
+.grid-item6
+{
+     background-color:firebrick;
+     grid-area:footer 2;
+     border:1px solid black;
+}
