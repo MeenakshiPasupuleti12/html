@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Design</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #74ebd5, #9face6);
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    }
+    .card img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .card h2 {
+      font-size: 22px;
+      margin: 10px 0;
+      color: #333;
+    }
+    .card p {
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #6a11cb;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #2575fc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="Profile">
+    <h2>Meenakshi</h2>
+    <p>Frontend Developer | Learning Full Stack</p>
+    <a href="#" class="btn">Follow</a>
+  </div>
+
+</body>
+</html>
